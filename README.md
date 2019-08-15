@@ -5,6 +5,8 @@ For test my k8s lab repo
 
 * 本 repo 採用 kubeadm v1.14 , kubelet v1.14 , kubectl v1.14
 
+* 使用 sh prerequisite.sh 來進行
+
 ### proxy-docker-compose.yaml (獨立一台機器)
 1. 製作 nginx load balancer，依照真實環境修改 nginx.conf
 2. nginx.conf 設定 upstream server
