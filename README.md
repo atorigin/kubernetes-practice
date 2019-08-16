@@ -32,6 +32,13 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join myk8s.helloyuan.site:6443 --token 8c
     --discovery-token-ca-cert-hash sha256:901
 ```
+if you lost the command , you can use:
+```
+kubeadm token create --ttl 10m --print-join-command # to print join command and set expired time in 10 min
+
+kubeadm init phase upload-certs --experimental-upload-certs # with join control-plane node , you should get the certificate-key
+```
+
 
 ### proxy-docker-compose.yaml (獨立一台機器)
 1. 製作 nginx load balancer，依照真實環境修改 nginx.conf
