@@ -4,6 +4,8 @@
 
 * 本 repo 採用 kubeadm v1.14 , kubelet v1.14 , kubectl v1.14
 
+* 使用 sh prerequisite_env.sh 來進行
+
 ### 初始化第一台 control-plane node -> master node
 ` kubeadm init --config=kubeadm-config.yaml --experimental-upload-certs `
 
@@ -30,7 +32,6 @@ Then you can join any number of worker nodes by running the following on each as
 kubeadm join myk8s.helloyuan.site:6443 --token 8c
     --discovery-token-ca-cert-hash sha256:901
 ```
-* 使用 sh prerequisite_env.sh 來進行
 
 ### proxy-docker-compose.yaml (獨立一台機器)
 1. 製作 nginx load balancer，依照真實環境修改 nginx.conf
