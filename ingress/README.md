@@ -10,8 +10,6 @@
 
 * You can choose from a number of [Ingress controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/).
 
-[參考文件]
-
 #### 安裝方式
 
 * 透過 kubectl 安裝相關工具在 kubernetes cluster 中 - 以 nginx 為例
