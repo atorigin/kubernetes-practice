@@ -62,3 +62,11 @@ kubeadm init phase upload-certs --experimental-upload-certs # with join control-
 [參考文件](https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7)
 
 [參考文件](https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/)
+----
+# 關於 Helm - Kubernetes 的套件管理工具
+
+* Helm 基礎觀念 - 一個 Helm 有兩個重要的基本組件(Tiller server 和 helm client)
+* 採用官方提供的 "從腳本安裝(From Script)"
+* 可以使用 `curl -L https://git.io/get_helm.sh | bash` 指令
+
+[參考文件](https://helm.sh/docs/using_helm/#from-script)
