@@ -60,7 +60,6 @@ kubeadm init phase upload-certs --experimental-upload-certs # with join control-
 2. 進入 container 容器後，安裝簽發所需環境
 3. 使用 certbot 簽發 Wildcard 憑證
 
-#### 參考
 [參考文件](https://medium.com/@saurabh6790/generate-wildcard-ssl-certificate-using-lets-encrypt-certbot-273e432794d7)
 
 [參考文件](https://linuxize.com/post/how-to-install-and-use-docker-compose-on-ubuntu-18-04/)
