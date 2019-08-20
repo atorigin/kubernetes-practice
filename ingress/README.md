@@ -136,3 +136,16 @@ kubectl apply -f web-ingress.yaml -n default
 cluster-instance1-public-ip blue.yourdomain.com
 cluster-instance2-public-ip purple.yourdomain.com
 ```
+
+----
+
+# Advanced
+
+#### 配置 tls/ssl with ingress
+
+* 搭配 certbot 所簽發的憑證(fullchain.pem)和私鑰(privkey.pem)
+
+#### 指令 - 創建 secrets 物件
+```
+kubectl create secret tls web-secret --cert="fullchain.pem" --key="privkey.pem"
+```

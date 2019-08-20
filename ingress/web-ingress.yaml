@@ -2,17 +2,23 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: web
+  annotations:
+    kubernetes.io/tls-acme: "true"
+    kubernetes.io/ingress.class: "nginx"
+    ingress.kubernetes.io/force-ssl-redirect: "true"
 spec:
   rules:
-    - host: blue.demo.com # 把它改成你的 domain
+    - host: blue.helloyuan.site # 把它改成自己的 domain
       http:
         paths:
           - backend:
               serviceName: blue-service
               servicePort: 80
-    - host: purple.demo.com # 把它改成你自己的 domain
+    - host: purple.helloyuan.site # 把它改成自己的 domain
       http:
         paths:
           - backend:
               serviceName: purple-service
               servicePort: 80
+  tls:
+    - secretName: web-secret
