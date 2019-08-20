@@ -72,3 +72,19 @@ kubeadm init phase upload-certs --experimental-upload-certs # with join control-
 * 可以使用 `curl -L https://git.io/get_helm.sh | bash` 指令
 
 [參考文件](https://helm.sh/docs/using_helm/#from-script)
+
+----
+
+# 關於 Ingress - Kubernetes 管理外部訪問的物件
+
+#### 前置說明
+
+* 基本認識 pod , service , ingress-controller 物件在 kubernetes 叢集內的角色和功能
+
+* 對於 Helm 有基礎認識
+
+* 初步掌握 kubectl 指令工具的使用
+
+* ingress 的其他細節說明，例如：安裝，配置設定...等，請參考 ingrees 目錄下的 [README.md](https://github.com/OwenYangGit/kubernetes-practice/blob/master/ingress/README.md)
+
+* 實作小小實驗室前，請初步了解 DNS 運作原理
