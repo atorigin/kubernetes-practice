@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: web
+spec:
+  rules:
+    - host: blue.demo.com # 把它改成你的 domain
+      http:
+        paths:
+          - backend:
+              serviceName: blue-service
+              servicePort: 80
+    - host: purple.demo.com # 把它改成你自己的 domain
+      http:
+        paths:
+          - backend:
+              serviceName: purple-service
+              servicePort: 80
