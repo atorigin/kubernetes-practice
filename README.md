@@ -1,5 +1,7 @@
 # kubernetes-practice
 
+* Running on ubuntu 18.04 Server 
+
 * 練習 HA 的 kubernetes cluster 的建置
 
 * 本 repo 採用 kubeadm v1.14 , kubelet v1.14 , kubectl v1.14
@@ -40,7 +42,7 @@ kubeadm init phase upload-certs --experimental-upload-certs # with join control-
 ```
 
 
-### proxy-docker-compose.yaml (獨立一台機器)
+### proxy-docker-compose.yaml (獨立一台機器) -> 也可以用 Cloud LoadBalacer (GCP LB or AWS ELB...)
 1. 製作 nginx load balancer，依照真實環境修改 nginx.conf
 2. nginx.conf 設定 upstream server
 
