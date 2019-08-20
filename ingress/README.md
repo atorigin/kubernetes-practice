@@ -21,5 +21,5 @@
 ## 安裝指令
 
 ```
-helm install stable/nginx-ingress --name my-ingress -f values.yaml
+helm install stable/nginx-ingress --name my-ingress --namespace nginx-ingress -f values.yaml
 ```
