@@ -2,7 +2,7 @@
 
 * Running on ubuntu 18.04 Server 
 
-* 練習 HA 的 kubernetes cluster 的建置
+* 練習 HA 的 kubernetes cluster 的建置 - stacked control plane and etcd nodes
 
 * 本 repo 採用 kubeadm v1.14 , kubelet v1.14 , kubectl v1.14
 
