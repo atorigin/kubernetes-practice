@@ -88,3 +88,15 @@ kubeadm init phase upload-certs --experimental-upload-certs # with join control-
 * ingress 的其他細節說明，例如：安裝，配置設定...等，請參考 ingrees 目錄下的 [README.md](https://github.com/OwenYangGit/kubernetes-practice/blob/master/ingress/README.md)
 
 * 實作小小實驗室前，請初步了解 DNS 運作原理
+
+----
+
+# RBAC - Role based access control
+
+#### 前置說明
+
+* 了解 Service account
+
+* 了解 Role and ClusterRole
+
+* 了解 Rolebinding and ClusterRolebinding
