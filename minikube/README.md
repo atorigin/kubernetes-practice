@@ -36,7 +36,7 @@ minikube start --vm-driver=none
 # Make a small lab for test
 
 ```
-kubectl run hello-minikube --image=gcr.io/google_containers/echoserver:1.4 --port=8080
+kubectl run hello-minikube --image=hongyuanyang/minikube-basic-img:latest --port=8080
 
 kubectl expose deployment hello-minikube --type=NodePort
 
