@@ -6,7 +6,7 @@
 #### Following step
 1. Install docker
 2. Pull eksctl docker image from weaveworks , command is ` docker pull weaveworks/eksctl `
-3. Use ` docker run -it weaveworks/eksctl sh ` command to operate eksctl command
+3. Use ` docker run -it weaveworks/eksctl sh ` command to operate eksctl command ( as you can run ./eksctl-docker.sh )
 4. aws configure. setup aws environment !! ( If not setup , you will create cluster failed with eksctl )
 5. eksctl create cluster --name myeks --node 2 --region ap-northeast-1
 
