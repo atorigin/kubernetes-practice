@@ -1,6 +1,7 @@
 # Reference
 - [About eksctl create cluster template yaml](https://github.com/weaveworks/eksctl/tree/master/examples)
 - [Introduce eksctl command usage and command example document](https://eksctl.io/usage/managing-nodegroups/)
+- [aws-eks-cloudformation-template](https://github.com/aws-quickstart/quickstart-amazon-eks/blob/master/templates/amazon-eks.template.yaml)
 
 # Using eksctl create a simple default cluster
 #### Following step
