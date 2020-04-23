@@ -28,3 +28,5 @@ source ~/.bashrc
 - Into eks directory using eksctl command create cluster and managed nodegroup
   - that allow ssh to worker nodes , so ~ ensure your public ssh key into the path ( such my yaml setting ~/.ssh/owen.pem )
   - how to create ? ` eksctl create cluster -f eks-cluster.yaml `
+
+#### :star: For this yaml , you need to create vpc on your aws cloud , because it will using exists vpc to create eks cluster control-plane and worker-node.
