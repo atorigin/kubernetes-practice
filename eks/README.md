@@ -1,16 +1,16 @@
-## Environment
+# Environment
 - OS : ubuntu:18.04
 - Need have zip tools ( sudo apt-get install zip -y )
 - Base on $SHELL=BASH
 
-# Reference
+## Reference
 - [About eksctl create cluster template yaml](https://github.com/weaveworks/eksctl/tree/master/examples)
 - [Introduce eksctl command usage and command example document](https://eksctl.io/usage/managing-nodegroups/)
 - [aws-eks-cloudformation-template](https://github.com/aws-quickstart/quickstart-amazon-eks/blob/master/templates/amazon-eks.template.yaml)
 
 #### :star: More details please go to reference
 
-# Environment
+## prerequisite
 - aws configure ( or AWS IAM Role )
 - if you want to using ` kubectl ` tool , you need to install following step
 ```
