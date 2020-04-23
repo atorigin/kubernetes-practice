@@ -1,4 +1,4 @@
-# 安裝 Helm 
+# 安裝 Helm ( Deprecate , it is helm2 , the latest version is helm3 )
 
 1. 先安裝 helm client 工具
 ```
